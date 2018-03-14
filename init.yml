@@ -18,4 +18,5 @@
     - role: developer-java
     - role: app-atom
     - role: app-chrome
+    - role: app-sourcetree
     - role: my-dock
