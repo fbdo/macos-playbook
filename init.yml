@@ -17,4 +17,5 @@
     - role: app-iterm2
     - role: developer-java
     - role: app-atom
+    - role: app-chrome
     - role: my-dock

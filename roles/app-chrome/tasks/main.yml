@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: google-chrome
+    state: present
+
+- name: Create Google Chrome in dock
+  shell: dockutil --find 'Google chrome' || dockutil --add '/Applications/Google Chrome.app'
