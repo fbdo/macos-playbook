@@ -11,3 +11,4 @@
   roles:
     - role: ansible-macos.settings
     - role: developer-iterm2
+    - role: my-dock

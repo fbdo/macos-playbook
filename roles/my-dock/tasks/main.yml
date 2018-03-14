@@ -1,0 +1,11 @@
+- name: Remove all items from the Dock
+  shell: /usr/local/bin/dockutil --remove all
+
+- name: Set the default Dock items
+  shell: "/usr/local/bin/dockutil --add {{ item }} --no-restart"
+  with_items:
+    - /Applications/iTerm.app
+    - "\"/Applications/System Preferences.app\""
+    - "/Applications --section others"
+    - "~/Downloads --section others"
+    - "~/Workspace --section others"
