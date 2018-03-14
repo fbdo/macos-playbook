@@ -3,8 +3,6 @@
 brew update
 brew tap caskroom/cask
 
-brew upgrade brew-cask
-
 brew install git
 
 git clone https://github.com/ansible-macos/macos-playbook.git ~/Workspace/macos-playbook
