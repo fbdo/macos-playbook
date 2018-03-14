@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: atom
+    state: present
+
+- name: Create Atom in dock
+  shell: dockutil --find 'Atom' || dockutil --add '/Applications/Atom.app'

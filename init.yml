@@ -18,4 +18,5 @@
     - role: developer-intellij
     - role: developer-java
     - role: developer-maven
+    - role: developer-atom
     - role: my-dock
