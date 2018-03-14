@@ -2,6 +2,9 @@
     name: iterm2
     state: present
 
+- name: Create iTerm in dock
+  shell: dockutil --find 'iTerm' || dockutil --add '/Applications/iTerm.app'
+
 - homebrew:
     name: zsh
     state: present
