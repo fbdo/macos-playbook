@@ -15,3 +15,16 @@
 
 - name: "Don't Ask confirmation for change extension"
   command: defaults write com.apple.finder FXEnableExtensionChangeWarning -bool false
+
+- name: "Create the settings for a network location Home"
+  command: networksetup -createlocation Home populate
+  ignore_errors: true
+
+- name: "Switch to network location Home"
+  command: networksetup -switchtolocation Home
+
+- name: "Enable Wifi to network location Home"
+  command: networksetup -setnetworkserviceenabled Wi-Fi on
+
+- name: "Switch to network location BMW"
+  command: networksetup -switchtolocation BMW

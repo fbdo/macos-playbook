@@ -7,13 +7,13 @@
     github_user: fbdo
     date_timezone: Europe/Berlin
     project_sources_path: ~/Workspace
-    cask_packages: []
 
   vars_files:
     - vars/main.yml
 
   roles:
     - role: macos.settings
+    - role: app-cntlm
     - role: app-iterm2
     - role: developer-java
     - role: app-atom

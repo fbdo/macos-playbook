@@ -1,0 +1,30 @@
+- name: "Install Cntlm"
+  homebrew:
+    name: cntlm
+    state: present
+
+- name: "Copy Cntlm config file to destination"
+  copy:
+    src: cntlm.conf
+    dest: /usr/local/etc/cntlm.conf
+
+- name: "Restart and register Cntlm to start at login"
+  command: brew services restart cntlm --all
+
+- name: "Switch to network location BMW"
+  command: networksetup -switchtolocation BMW
+
+- name: "Set web proxy"
+  command: networksetup -setwebproxy Wi-Fi localhost 3128
+
+- name: "Enable web proxy"
+  command: networksetup -setwebproxystate Wi-Fi on
+
+- name: "Set secure web proxy"
+  command: networksetup -setsecurewebproxy Wi-Fi localhost 3128
+
+- name: "Enable secure web proxy"
+  command: networksetup -setsecurewebproxystate Wi-Fi on
+
+- name: "Disable web proxy discovery"
+  command: networksetup -setautoproxystate Wi-Fi off
