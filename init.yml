@@ -8,7 +8,14 @@
     date_timezone: Europe/Berlin
     project_sources_path: ~/Workspace
     cask_packages: []
+
+  vars_files:
+    - vars/main.yml
+
   roles:
     - role: ansible-macos.settings
     - role: developer-iterm2
-    - role: my-dock
+    - role: developer-intellij
+    - role: developer-java
+#    - role: developer-maven
+#    - role: my-dock

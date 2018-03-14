@@ -1,0 +1,5 @@
+- include_role:
+    name: developer-sdkman
+
+- name: Install Java
+  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java
