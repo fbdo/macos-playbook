@@ -2,9 +2,13 @@
     name: docker-machine-driver-xhyve
     state: present
 
-- shell: sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+- name: Fix docker-machine-driver-xhyve ownership
+  shell: chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+  become: true
 
-- shell: sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+- name: Fix access permissions docker-machine-driver-xhyve
+  shell: chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+  become: true
 
 - homebrew_cask:
     name: minishift

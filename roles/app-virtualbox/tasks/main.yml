@@ -1,0 +1,10 @@
+- homebrew_cask:
+    name: virtualbox
+    state: present
+
+- homebrew_cask:
+    name: virtualbox-extension-pack
+    state: present
+
+- name: Create VirtualBox in dock
+  shell: dockutil --find 'VirtualBox' || dockutil --add '/Applications/VirtualBox.app'
