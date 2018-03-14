@@ -19,4 +19,5 @@
     - role: app-atom
     - role: app-chrome
     - role: app-sourcetree
+    - role: app-minishift
     - role: my-dock

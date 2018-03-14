@@ -1,0 +1,11 @@
+- homebrew:
+    name: docker-machine-driver-xhyve
+    state: present
+
+- shell: sudo chown root:wheel $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+
+- shell: sudo chmod u+s $(brew --prefix)/opt/docker-machine-driver-xhyve/bin/docker-machine-driver-xhyve
+
+- homebrew_cask:
+    name: minishift
+    state: present
