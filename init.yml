@@ -22,4 +22,5 @@
     - role: app-minishift
     - role: app-docker
     - role: app-virtualbox
+    - role: app-spectacle
     - role: my-dock
