@@ -1,0 +1,6 @@
+- include_role:
+    name: developer-sdkman
+
+- name: Install Maven
+  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install maven
+

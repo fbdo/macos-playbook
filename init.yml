@@ -17,5 +17,5 @@
     - role: developer-iterm2
     - role: developer-intellij
     - role: developer-java
-#    - role: developer-maven
+    - role: developer-maven
 #    - role: my-dock
