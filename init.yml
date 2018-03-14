@@ -1,0 +1,12 @@
+---
+- hosts: localhost
+  vars:
+    user_email: fabio.oliveira@bmw.de
+    user_name: Fabio Oliveira
+    docker_hub_user: fbdo
+    github_user: fbdo
+    date_timezone: Europe/Berlin
+    project_sources_path: ~/Workspace
+    cask_packages: []
+  roles:
+    - role: ansible-macos.settings
