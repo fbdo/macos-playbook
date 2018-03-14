@@ -10,3 +10,4 @@
     cask_packages: []
   roles:
     - role: ansible-macos.settings
+    - role: developer-iterm2
