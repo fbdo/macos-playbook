@@ -4,8 +4,8 @@
     state: present
 
 - name: "Copy Cntlm config file to destination"
-  copy:
-    src: cntlm.conf
+  template:
+    src: cntlm.j2
     dest: /usr/local/etc/cntlm.conf
 
 - name: "Restart and register Cntlm to start at login"

@@ -2,7 +2,8 @@
 - hosts: localhost
   vars:
     user_email: fabio.oliveira@bmw.de
-    user_name: Fabio Oliveira
+    q_number: q438028
+    user_fullname: Fabio Oliveira
     docker_hub_user: fbdo
     github_user: fbdo
     date_timezone: Europe/Berlin
