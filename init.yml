@@ -13,7 +13,7 @@
     - vars/main.yml
 
   roles:
-    - role: ansible-macos.settings
+    - role: macos.settings
     - role: app-iterm2
     - role: developer-java
     - role: app-atom
