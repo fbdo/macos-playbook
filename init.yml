@@ -18,4 +18,4 @@
     - role: developer-intellij
     - role: developer-java
     - role: developer-maven
-#    - role: my-dock
+    - role: my-dock
