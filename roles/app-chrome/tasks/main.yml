@@ -3,4 +3,4 @@
     state: present
 
 - name: Create Google Chrome in dock
-  shell: dockutil --find 'Google chrome' || dockutil --add '/Applications/Google Chrome.app'
+  shell: dockutil --find 'Google Chrome' || dockutil --add '/Applications/Google Chrome.app'
