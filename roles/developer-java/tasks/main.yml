@@ -1,5 +1,11 @@
 - include_role:
-    name: developer-sdkman
+    name: app-sdkman
 
 - name: Install Java
   shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java
+
+- include_role:
+    name: app-maven
+
+- include_role:
+    name: app-intellij-ce

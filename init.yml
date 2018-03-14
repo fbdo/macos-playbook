@@ -14,9 +14,7 @@
 
   roles:
     - role: ansible-macos.settings
-    - role: developer-iterm2
-    - role: developer-intellij
+    - role: app-iterm2
     - role: developer-java
-    - role: developer-maven
-    - role: developer-atom
+    - role: app-atom
     - role: my-dock
