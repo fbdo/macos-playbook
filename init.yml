@@ -24,4 +24,5 @@
     - role: app-docker
     - role: app-virtualbox
     - role: app-spectacle
+    - role: app-postman
     - role: my-dock
