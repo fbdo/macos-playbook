@@ -24,6 +24,7 @@
     - role: app-virtualbox
     - role: app-spectacle
     - role: app-postman
+    - role: app-aws-cli
     - role: developer-java
     - role: developer-scala
     - role: developer-python
