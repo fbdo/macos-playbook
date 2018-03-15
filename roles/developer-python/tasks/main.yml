@@ -1,0 +1,7 @@
+- name: Install Python
+  homebrew:
+    name: python
+    state: present
+
+- include_role:
+    name: app-pycharm-ce

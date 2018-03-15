@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: pycharm-ce
+    state: present
+
+- name: Create PyCharm CE in dock
+  shell: dockutil --find 'PyCharm CE' || dockutil --add '/Applications/PyCharm CE.app'

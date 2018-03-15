@@ -26,4 +26,5 @@
     - role: app-postman
     - role: developer-java
     - role: developer-scala
+    - role: developer-python
     - role: my-dock
