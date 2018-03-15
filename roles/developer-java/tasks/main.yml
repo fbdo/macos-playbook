@@ -1,8 +1,15 @@
 - include_role:
     name: app-sdkman
 
-- name: Install Java
+- name: Install Java 8
+  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java 8u161-oracle
+  args:
+    creates: "{{ sdkman_dir }}/candidates/java/8u161-oracle"
+
+- name: Install Java 9
   shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java 9.0.4-oracle
+  args:
+    creates: "{{ sdkman_dir }}/candidates/java/9.0.4-oracle"
 
 - include_role:
     name: app-maven
