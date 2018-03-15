@@ -6,8 +6,8 @@ An Ansible Playbook to recover my enviroment using OS X
 
 If your planning to fork this repo and customze it to your usage, take a look in the files:
 
-./init.yml
-./vars/main.yml
+	./init.yml
+	./vars/main.yml
 
 Those files are the main points of customization.
 
