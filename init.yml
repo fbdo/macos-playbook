@@ -16,7 +16,6 @@
     - role: macos.settings
     - role: app-cntlm
     - role: app-iterm2
-    - role: developer-java
     - role: app-atom
     - role: app-chrome
     - role: app-sourcetree
@@ -25,4 +24,6 @@
     - role: app-virtualbox
     - role: app-spectacle
     - role: app-postman
+    - role: developer-java
+    - role: developer-scala
     - role: my-dock

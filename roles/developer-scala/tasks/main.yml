@@ -1,0 +1,11 @@
+- include_role:
+    name: app-sdkman
+
+- name: Install Scala
+  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install scala
+
+- include_role:
+    name: app-sbt
+
+- include_role:
+    name: app-intellij-ce
