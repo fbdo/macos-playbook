@@ -1,5 +1,7 @@
 - name: Install SDKMAN!
   shell: curl -s "https://get.sdkman.io" | bash
+  args:
+    creates: '{{ ansible_env.HOME + "/.sdkman" }}'
 
 - name: Determine SDKMAN vars
   set_fact:

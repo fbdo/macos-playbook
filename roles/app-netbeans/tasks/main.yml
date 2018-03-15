@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: netbeans
+    state: present
+
+- name: Create Neatbeans in dock
+  shell: dockutil --find 'NetBeans 8.2' || dockutil --add '/Applications/NetBeans/NetBeans 8.2.app'

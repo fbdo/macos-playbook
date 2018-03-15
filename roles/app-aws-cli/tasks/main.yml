@@ -1,2 +1,4 @@
 - name: Install AWS CLI
   command: pip3 install awscli --upgrade --user
+  args:
+    creates: /Users/q438028/Library/Python/*/bin/aws

@@ -7,9 +7,8 @@
   template:
     src: cntlm.j2
     dest: /usr/local/etc/cntlm.conf
-
-- name: "Restart and register Cntlm to start at login"
-  command: brew services restart cntlm --all
+  notify:
+    - restart cntlm
 
 - name: "Switch to network location BMW"
   command: networksetup -switchtolocation BMW

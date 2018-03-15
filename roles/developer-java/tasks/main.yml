@@ -2,7 +2,7 @@
     name: app-sdkman
 
 - name: Install Java
-  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java
+  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java 9.0.4-oracle
 
 - include_role:
     name: app-maven
