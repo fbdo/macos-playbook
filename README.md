@@ -2,7 +2,16 @@
 
 An Ansible Playbook to recover my enviroment using OS X
 
-## Getting Started
+## Customizing
+
+If your planning to fork this repo and customze it to your usage, take a look in the files:
+
+./init.yml
+./vars/main.yml
+
+Those files are the main points of customization.
+
+## Installing
 
 Set proxy variables if required:
 
