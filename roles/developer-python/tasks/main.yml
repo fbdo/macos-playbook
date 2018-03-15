@@ -1,7 +1,13 @@
 - name: Install Python
   homebrew:
-    name: python
+    name: python3
     state: present
+
+- name: Install virtualenv
+  command: pip3 install virtualenv
+
+- name: Install virtualenvwrapper
+  command: pip3 install virtualenvwrapper
 
 - include_role:
     name: app-pycharm-ce
