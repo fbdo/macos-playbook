@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: spotify
+    state: present
+
+- name: Create Spotify in dock
+  shell: dockutil --find 'Spotify' || dockutil --add '/Applications/Spotify.app'
