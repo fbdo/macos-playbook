@@ -2,14 +2,27 @@
     name: app-sdkman
 
 - name: Install Java 8
-  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java 8u161-oracle
-  args:
-    creates: "{{ sdkman_dir }}/candidates/java/8u161-oracle"
+  homebrew_cask:
+    name: java8
+    state: present
 
-- name: Install Java 9
-  shell: source {{ sdkman_dir }}/bin/sdkman-init.sh && sdk install java 9.0.4-oracle
+- name: Install Latest Java
+  homebrew_cask:
+    name: java
+    state: present
+
+- name: Install jEnv
+  homebrew:
+    name: jenv
+    state: present
+
+- name: Make jEnv scan all installed JDKs
+  shell: eval 'for d (/Library/Java/JavaVirtualMachines/jdk*/Contents/Home); do jenv add $d; done'
   args:
-    creates: "{{ sdkman_dir }}/candidates/java/9.0.4-oracle"
+    creates: '{{ ansible_env.HOME + "/.jenv" }}'
+
+- name: Scan all JDK executables
+  command: jenv rehash
 
 - include_role:
     name: app-maven
