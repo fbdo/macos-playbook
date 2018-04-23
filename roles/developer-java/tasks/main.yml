@@ -6,6 +6,11 @@
     name: java8
     state: present
 
+- name: Install Java 9
+  homebrew_cask:
+    name: java9
+    state: present
+
 - name: Install Latest Java
   homebrew_cask:
     name: java
@@ -17,7 +22,7 @@
     state: present
 
 - name: Make jEnv scan all installed JDKs
-  shell: eval 'for d (/Library/Java/JavaVirtualMachines/jdk*/Contents/Home); do jenv add $d; done'
+  shell: eval 'mkdir -p ~/.jenv/versions; for d in /Library/Java/JavaVirtualMachines/jdk*/Contents/Home; do jenv add $d; done'
   args:
     creates: '{{ ansible_env.HOME + "/.jenv" }}'
 
