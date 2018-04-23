@@ -5,7 +5,7 @@ brew tap caskroom/cask
 
 brew install git
 
-git clone https://github.com/ansible-macos/macos-playbook.git ~/Workspace/macos-playbook
+git clone https://licdci01.bmwgroup.net:7993/scm/~q438028/macos-playbook.git ~/Workspace/macos-playbook
 
 brew install ansible
 
