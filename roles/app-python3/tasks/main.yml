@@ -1,0 +1,4 @@
+- name: Install Python
+  homebrew:
+    name: python3
+    state: present

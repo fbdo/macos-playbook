@@ -1,3 +1,6 @@
+- include_role:
+    name: app-python3
+
 - name: Install AWS CLI
   command: pip3 install awscli --upgrade --user
   args:
