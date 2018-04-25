@@ -26,6 +26,7 @@
     - role: app-postman
     - role: app-spotify
     - role: app-vlc
+    - role: app-keypassx
     - role: developer-java
     - role: developer-scala
     - role: developer-python

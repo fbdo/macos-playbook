@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: keepassx
+    state: present
+
+- name: Create KeePassX in dock
+  shell: dockutil --find 'KeePassX' || dockutil --add '/Applications/KeePassX.app'
