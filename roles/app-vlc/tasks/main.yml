@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: vlc
+    state: present
+
+- name: Create VLC in dock
+  shell: dockutil --find 'VLC' || dockutil --add '/Applications/VLC.app'
