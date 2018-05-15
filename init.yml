@@ -21,6 +21,7 @@
     - role: app-sourcetree
     - role: app-minishift
     - role: app-docker
+    - role: app-kubectl
     - role: app-virtualbox
     - role: app-spectacle
     - role: app-postman
