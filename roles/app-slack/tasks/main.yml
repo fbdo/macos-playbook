@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: slack
+    state: present
+
+- name: Create Slack in dock
+  shell: dockutil --find 'Slack' || dockutil --add '/Applications/Slack.app'

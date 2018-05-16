@@ -29,6 +29,7 @@
     - role: app-spotify
     - role: app-vlc
     - role: app-keypassx
+    - role: app-slack
     - role: developer-java
     - role: developer-scala
     - role: developer-python
