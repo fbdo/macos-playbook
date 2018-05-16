@@ -28,6 +28,7 @@
     - role: app-rescuetime
     - role: app-spotify
     - role: app-vlc
+    - role: app-xmind
     - role: app-keypassx
     - role: app-slack
     - role: developer-java
