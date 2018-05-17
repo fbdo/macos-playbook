@@ -1,14 +1,12 @@
 - include_role:
     name: app-sdkman
 
+- name: Check if caskroom/versions is installed
+  homebrew_tap: tap=caskroom/versions state=present
+
 - name: Install Java 8
   homebrew_cask:
     name: java8
-    state: present
-
-- name: Install Java 9
-  homebrew_cask:
-    name: java9
     state: present
 
 - name: Install Latest Java
