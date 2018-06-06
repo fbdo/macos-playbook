@@ -20,6 +20,7 @@
     - role: app-chrome
     - role: app-sourcetree
     - role: app-minishift
+    - role: app-minikube
     - role: app-docker
     - role: app-kubectl
     - role: app-virtualbox
