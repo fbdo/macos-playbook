@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: visual-studio-code
+    state: present
+
+- name: Create Visual Studio Code in dock
+  shell: dockutil --find 'Visual Studio Code' || dockutil --add '/Applications/Visual Studio Code.app'

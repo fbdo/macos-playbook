@@ -32,6 +32,7 @@
     - role: app-xmind
     - role: app-keypassx
     - role: app-slack
+    - role: app-visual-studio-code
     - role: developer-java
     - role: developer-scala
     - role: developer-python
