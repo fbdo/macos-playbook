@@ -24,7 +24,6 @@
     - role: app-docker
     - role: app-kubectl
     - role: app-virtualbox
-    - role: app-terraform
     - role: app-spectacle
     - role: app-postman
     - role: app-rescuetime
