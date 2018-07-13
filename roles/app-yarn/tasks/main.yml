@@ -1,0 +1,4 @@
+- name: Install Yarn v8
+  homebrew:
+    name: yarn
+    state: present

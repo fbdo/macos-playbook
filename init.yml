@@ -35,6 +35,7 @@
     - role: app-keypassx
     - role: app-slack
     - role: app-nodejs
+    - role: app-yarn
     - role: app-visual-studio-code
     - role: developer-java
     - role: developer-scala
