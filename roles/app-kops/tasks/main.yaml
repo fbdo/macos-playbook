@@ -1,0 +1,4 @@
+- name: "Install kops"
+  homebrew:
+    name: kops
+    state: latest

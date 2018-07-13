@@ -23,6 +23,7 @@
     - role: app-minikube
     - role: app-docker
     - role: app-kubectl
+    - role: app-kops
     - role: app-virtualbox
     - role: app-terraform
     - role: app-spectacle
