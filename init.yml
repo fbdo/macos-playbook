@@ -26,6 +26,7 @@
     - role: app-kops
     - role: app-virtualbox
     - role: app-terraform
+    - role: app-helm
     - role: app-spectacle
     - role: app-postman
     - role: app-rescuetime
