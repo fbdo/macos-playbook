@@ -1,0 +1,6 @@
+- homebrew_cask:
+    name: tomighty
+    state: present
+
+- name: Create Tomighty in dock
+  shell: dockutil --find 'Tomighty' || dockutil --add '/Applications/Tomighty.app'
