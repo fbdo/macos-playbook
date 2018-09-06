@@ -17,9 +17,9 @@ Domain		muc
 ### Only for user 'testuser', domain 'corp-uk'
 # PassNTLMv2      D5826E9C665C37C80B53397D5C07BBCB
 
-PassLM          378DB7AABC47778C37E9981628C73A26
-PassNT          0E02CB6CAA17CA0D16DFEA796871843E
-PassNTLMv2      95133B564DA47F7B5162772B22E51D22    # Only for user 'q438028', domain 'muc'
+PassLM          26B53A14B569C07E83CEEC4B5E5A1C5F
+PassNT          CB78760D4BC447226F1B355A5407F375
+PassNTLMv2      6161404E400664C96E508634C03DE236    # Only for user 'q438028', domain 'muc'
 
 # Specify the netbios hostname cntlm will send to the parent
 # proxies. Normally the value is auto-guessed.
@@ -34,7 +34,7 @@ Proxy		192.109.190.88:8080
 # List addresses you do not want to pass to parent proxies
 # * and ? wildcards can be used
 #
-NoProxy		localhost, 127.0.0.*, 10.*, 192.168.*,*.bmwgroup.net,*.muc,*.bmw
+NoProxy		localhost, 127.0.0.*, 10.*, 192.168.*,*.bmwgroup.net,*.muc,*.bmw,*.service-now.com,*.w10
 
 # Specify the port cntlm will listen on
 # You can bind cntlm to specific interface by specifying
