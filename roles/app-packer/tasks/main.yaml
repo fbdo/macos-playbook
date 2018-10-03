@@ -1,0 +1,4 @@
+- name: "Install Packer"
+  homebrew:
+    name: packer
+    state: present
