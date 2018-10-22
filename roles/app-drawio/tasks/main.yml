@@ -1,0 +1,7 @@
+- homebrew_cask:
+    name: drawio
+    state: present
+
+
+- name: Create IntelliJ CE in dock
+  shell: dockutil --find 'draw.io' || dockutil --add '/Applications/draw.io.app'
