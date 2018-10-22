@@ -27,6 +27,7 @@
     - role: app-virtualbox
     - role: app-terraform
     - role: app-helm
+    - role: app-jenkinsx
     - role: app-packer
     - role: app-spectacle
     - role: app-postman

@@ -1,0 +1,11 @@
+- name: Check if caskroom/versions for jenkins-x is installed
+  homebrew_tap: tap=jenkins-x/jx state=present
+
+- homebrew_cask:
+    name: jenkins-x/jx/jx
+    state: present
+
+- name: "Install Jenkins X"
+  homebrew:
+    name: jenkins-x/jx/jx
+    state: present
