@@ -7,7 +7,7 @@ brew install git
 
 mkdir -p ~/Workspace/MyProjects
 
-git clone https://raw.githubusercontent.com/fbdo/macos-playbook.git ~/Workspace/MyProjects/macos-playbook
+git clone https://github.com/fbdo/macos-playbook.git ~/Workspace/MyProjects/macos-playbook
 
 brew install ansible
 
