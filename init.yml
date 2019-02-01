@@ -24,6 +24,7 @@
     #- role: app-kubectl
     #- role: app-kops
     - role: app-virtualbox
+    - role: app-vagrant
     #- role: app-terraform
     #- role: app-helm
     #- role: app-jenkinsx
