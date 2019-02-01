@@ -16,6 +16,9 @@ dockitems_to_remove:
   - System Preferences
   - Calendar
   - Siri
+  - Pages
+  - Numbers
+  - Keynote
 
 dockitems_to_persist:
   - { name: 'Preview', path: '/Applications/Preview.app', pos: 10 }
