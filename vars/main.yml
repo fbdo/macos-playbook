@@ -18,6 +18,7 @@ dockitems_to_remove:
   - Siri
 
 dockitems_to_persist:
+  - { name: 'Preview', path: '/Applications/Preview.app', pos: 10 }
 
 dockfolders_to_persist:
   - { name: 'Applications', path: '/Applications'}
