@@ -26,5 +26,5 @@
 - name: "Enable Wifi to network location Home"
   command: networksetup -setnetworkserviceenabled Wi-Fi on
 
-- name: "Switch to network location BMW"
-  command: networksetup -switchtolocation BMW
+- name: "Switch to network location Work"
+  command: networksetup -switchtolocation Work

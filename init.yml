@@ -1,8 +1,7 @@
 ---
 - hosts: localhost
   vars:
-    user_email: fabio.oliveira@bmw.de
-    q_number: q438028
+    network_user: fbdo
     user_fullname: Fabio Oliveira
     docker_hub_user: fbdo
     github_user: fbdo
@@ -14,36 +13,36 @@
 
   roles:
     - role: macos.settings
-    - role: app-cntlm
+    #- role: app-cntlm
     - role: app-iterm2
-    - role: app-atom
+    #- role: app-atom
     - role: app-chrome
-    - role: app-sourcetree
-    - role: app-minishift
-    - role: app-minikube
-    - role: app-docker
-    - role: app-kubectl
-    - role: app-kops
+    #- role: app-sourcetree
+    #- role: app-minishift
+    #- role: app-minikube
+    #- role: app-docker
+    #- role: app-kubectl
+    #- role: app-kops
     - role: app-virtualbox
-    - role: app-terraform
-    - role: app-helm
-    - role: app-jenkinsx
-    - role: app-packer
+    #- role: app-terraform
+    #- role: app-helm
+    #- role: app-jenkinsx
+    #- role: app-packer
     - role: app-spectacle
-    - role: app-postman
+    #- role: app-postman
     - role: app-rescuetime
     - role: app-spotify
     - role: app-tomighty
     - role: app-vlc
     - role: app-xmind
-    - role: app-keypassx
+    #- role: app-keypassx
     - role: app-slack
-    - role: app-nodejs
-    - role: app-yarn
+    #- role: app-nodejs
+    #- role: app-yarn
     - role: app-drawio
     - role: app-visual-studio-code
-    - role: developer-java
-    - role: developer-scala
-    - role: developer-python
-    - role: app-aws-cli
+    #- role: developer-java
+    #- role: developer-scala
+    #- role: developer-python
+    #- role: app-aws-cli
     - role: my-dock

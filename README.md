@@ -15,10 +15,10 @@ Those files are the main points of customization.
 
 Set proxy variables if required:
 
-    export http_proxy=<username>:<password>@proxy.muc:8080
-    export https_proxy=<username>:<password>@proxy.muc:8080
-    export no_proxy=.muc,.bmwgroup.net
+    export http_proxy=<username>:<password>@proxy:8080
+    export https_proxy=<username>:<password>@proxy:8080
+    export no_proxy=localhost,127.0.0.1,<other sites here>
 
 To start the recovery, run the following command in your terminal:
 
-    curl -Lks https://licdci01.bmwgroup.net:7993/users/q438028/repos/macos-playbook/raw/recover_mac.sh?at=refs%2Fheads%2Fmaster | /bin/bash
+    curl -Lks https://raw.githubusercontent.com/fbdo/macos-playbook/master/recover_mac.sh | /bin/bash

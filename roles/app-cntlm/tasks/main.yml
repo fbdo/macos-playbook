@@ -10,8 +10,8 @@
   notify:
     - restart cntlm
 
-- name: "Switch to network location BMW"
-  command: networksetup -switchtolocation BMW
+- name: "Switch to network location Work"
+  command: networksetup -switchtolocation Work
 
 - name: "Set web proxy"
   command: networksetup -setwebproxy Wi-Fi localhost 3128
