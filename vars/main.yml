@@ -18,9 +18,6 @@ dockitems_to_remove:
   - Siri
 
 dockitems_to_persist:
-  - { name: 'Skype for Business', path: '/Applications/Skype for Business.app', pos: 10 }
-  - { name: 'Microsoft Outlook', path: '/Applications/Microsoft Outlook.app', pos: 11 }
-  - { name: 'Cisco AnyConnect Secure Mobility Client', path: '/Applications/Cisco/Cisco AnyConnect Secure Mobility Client.app', pos: 12 }
 
 dockfolders_to_persist:
   - { name: 'Applications', path: '/Applications'}
