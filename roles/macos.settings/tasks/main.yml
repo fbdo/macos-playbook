@@ -35,3 +35,8 @@
 
 - name: "Enable Wifi to network location Work"
   command: networksetup -setnetworkserviceenabled Wi-Fi on
+
+- name: Install dockutil
+  homebrew:
+    name: dockutil
+    state: present
