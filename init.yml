@@ -36,7 +36,9 @@
     - role: app-tomighty
     - role: app-vlc
     - role: app-xmind
-    #- role: app-keypassx
+    - role: app-keypassx
+    - role: app-keka
+    - role: app-pentaho-etl
     - role: app-slack
     #- role: app-nodejs
     #- role: app-yarn
