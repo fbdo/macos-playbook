@@ -1,3 +1,7 @@
-- homebrew_cask:
-    name: kettle
+- name: Install Pentaho Data Integration
+  homebrew_cask:
+    name: data-integration
     state: present
+
+- name: Remove Pentaho from Quarantine
+  command: sudo xattr -dr com.apple.quarantine /Applications/Data\ Integration.app
