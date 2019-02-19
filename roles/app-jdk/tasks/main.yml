@@ -1,0 +1,12 @@
+- homebrew_tap:
+    name: caskroom/versions
+
+- name: Install Java 8
+  homebrew_cask:
+    name: java8
+    state: present
+
+- name: Install Latest Java
+  homebrew_cask:
+    name: java
+    state: present

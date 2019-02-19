@@ -4,15 +4,8 @@
 #- name: Check if caskroom/versions is installed
 #  homebrew_tap: tap=caskroom/versions state=present
 
-- name: Install Java 8
-  homebrew_cask:
-    name: java8
-    state: present
-
-- name: Install Latest Java
-  homebrew_cask:
-    name: java
-    state: present
+- include_role:
+    name: app-jdk
 
 - name: Install jEnv
   homebrew:
