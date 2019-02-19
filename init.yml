@@ -38,14 +38,16 @@
     - role: app-xmind
     - role: app-keypassx
     - role: app-keka
-    - role: app-pentaho-etl
+    #- role: app-pentaho-etl
+    - role: app-gpg-suite
     - role: app-slack
     #- role: app-nodejs
     #- role: app-yarn
     - role: app-drawio
     - role: app-visual-studio-code
     - role: app-veracrypt
-    #- role: developer-java
+    #- role: app-jdk
+    - role: developer-java
     #- role: developer-scala
     #- role: developer-python
     #- role: app-aws-cli
