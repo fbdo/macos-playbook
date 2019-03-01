@@ -19,18 +19,18 @@
     - role: app-chrome
     #- role: app-sourcetree
     #- role: app-minishift
-    #- role: app-minikube
-    #- role: app-docker
-    #- role: app-kubectl
+    - role: app-minikube
+    - role: app-docker
+    - role: app-kubectl
     #- role: app-kops
     - role: app-virtualbox
     - role: app-vagrant
-    #- role: app-terraform
-    #- role: app-helm
+    - role: app-terraform
+    - role: app-helm
     #- role: app-jenkinsx
-    #- role: app-packer
+    - role: app-packer
     - role: app-spectacle
-    #- role: app-postman
+    - role: app-postman
     - role: app-rescuetime
     - role: app-spotify
     - role: app-tomighty
