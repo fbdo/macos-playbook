@@ -46,6 +46,7 @@
     - role: app-drawio
     - role: app-visual-studio-code
     - role: app-veracrypt
+    - role: app-skype
     #- role: app-jdk
     - role: developer-java
     #- role: developer-scala
