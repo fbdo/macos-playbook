@@ -20,7 +20,7 @@
     #- role: app-sourcetree
     #- role: app-minishift
     - role: app-minikube
-    - role: app-docker
+    #- role: app-docker
     - role: app-kubectl
     #- role: app-kops
     - role: app-virtualbox
@@ -41,7 +41,7 @@
     #- role: app-pentaho-etl
     - role: app-gpg-suite
     - role: app-slack
-    #- role: app-nodejs
+    - role: app-nodejs
     #- role: app-yarn
     - role: app-drawio
     - role: app-visual-studio-code
@@ -52,4 +52,5 @@
     #- role: developer-scala
     #- role: developer-python
     #- role: app-aws-cli
+    - role: app-gcp-cli
     - role: my-dock

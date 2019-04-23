@@ -1,9 +1,9 @@
-- name: Install NodeJS v8
+- name: Install NodeJS
   homebrew:
-    name: node@8
+    name: node
     state: present
 
-- name: Link NodeJS v8
+- name: Link NodeJS
   homebrew:
-    name: node@8
+    name: node
     state: linked
