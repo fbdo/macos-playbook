@@ -31,7 +31,7 @@
   ignore_errors: true
 
 - name: "Switch to network location Work"
-  command: networksetup -switchtolocation Home
+  command: networksetup -switchtolocation Work
 
 - name: "Enable Wifi to network location Work"
   command: networksetup -setnetworkserviceenabled Wi-Fi on
