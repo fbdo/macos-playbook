@@ -1,3 +1,3 @@
-- homebrew_cask:
+- homebrew:
     name: minikube
     state: present
