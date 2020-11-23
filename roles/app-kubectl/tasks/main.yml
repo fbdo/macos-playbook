@@ -4,7 +4,7 @@
 
 - name: Install AWS IAM authenticator
   get_url:
-    url: https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.3/2018-07-26/bin/darwin/amd64/aws-iam-authenticator
+    url: https://amazon-eks.s3-us-west-2.amazonaws.com/1.10.11/2018-12-06/bin/darwin/amd64/aws-iam-authenticator
     dest: '{{ ansible_env.HOME + "/bin" }}'
     mode: u+rwx
     force: no
