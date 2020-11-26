@@ -35,7 +35,7 @@
     - role: app-spotify
     - role: app-gimp
     - role: app-alfred
-    #- role: app-tomighty
+    - role: app-tomighty
     #- role: app-vlc
     #- role: app-xmind
     - role: app-keypassx
