@@ -52,7 +52,7 @@
     #- role: app-jdk
     #- role: developer-java
     #- role: developer-scala
-    #- role: developer-python
+    - role: developer-python
     #- role: app-aws-cli
     #- role: app-gcp-cli
     #- role: my-dock

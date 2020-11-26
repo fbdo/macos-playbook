@@ -8,4 +8,4 @@
   command: pip3 install virtualenvwrapper
 
 - include_role:
-    name: app-pycharm-ce
+    name: app-pycharm
