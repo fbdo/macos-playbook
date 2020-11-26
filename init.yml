@@ -33,6 +33,7 @@
     - role: app-postman
     #- role: app-rescuetime
     - role: app-spotify
+    - role: app-gimp
     #- role: app-tomighty
     #- role: app-vlc
     #- role: app-xmind
